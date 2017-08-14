@@ -5,3 +5,10 @@
   flex-direction:column;
   min-height:100vh;
 }
+
+.navbar {
+background:rgba(68, 20, 120, .65);
+color:#FFFFFF;
+width:50%;
+height:60px;
+}
