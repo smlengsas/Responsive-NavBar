@@ -6,9 +6,24 @@
   min-height:100vh;
 }
 
-.navbar {
+.highlight {
 background:rgba(68, 20, 120, .65);
 color:#FFFFFF;
 width:50%;
 height:60px;
+}
+
+a {
+  text-decoration:none;
+  margin-right:5px;
+}
+
+.block {
+height:200px;
+width:200px;
+background:#FF0000;
+margin:5px 30px 50px 5px;
+padding:5px 25px 10px 5px;
+
+
 }
