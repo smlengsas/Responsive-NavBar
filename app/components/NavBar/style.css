@@ -3,22 +3,26 @@
 .navBar {
   display:flex;
   flex-direction:row;
-  background:#C39BD3;
+  background:#ABEBC6;
   width:100%;
-  height:100%;
+  height:80px;
   justify-content:space-between;
   align-items:center;
 }
 
 .siteName {
   width:30%;
-  font-size:2em;
-  margin-left:15px;
+  font-size:2.5em;
+  margin-left:20px;
   font-variant:small-caps;
+  font-family:"Dosis";
+  line-height:32px;
+  font-weight:bold;
+  color:#6C3483;
 }
 
 .nav {
-  width:70%;
+  width:80%;
   display:flex;
   flex-direction:row;
   justify-content:flex-end;
@@ -26,11 +30,13 @@
 }
 
 .navButton {
-  color:#ABEBC6;
+  color:#6C3483;
+  font-size:1.5em;
   text-decoration:none;
   margin-right:15px;
   font-weight:bold;
   font-variant:small-caps;
+  font-family:"Dosis";
 }
 
 .menuIcon {
